@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(122, 103, 103);
+}
+
+img {
+
+    width: 500px;
+    height: 550px; 
+    position: absolute;
+    left: 35%;
+    top: 7%;
+    border: 2px black solid;
+    border-radius: 10%;
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: blur(100%);
+    -webkit-filter: blur(100%);
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 2px rgb(190, 177, 177);
+    opacity: 0.3;
+    
+}
+
+.inc {
+    display: inline;
+    position: fixed;
+    left: 45%;
+    top: 59%;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(102, 66, 66);
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgb(5, 19, 27);
+}
+
+.save {
+    display: inline;
+    position: fixed;
+    left: 45%;
+    top: 66%;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(55, 63, 52);
+    border-radius: 10px;
+    transition: 00.3s;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgb(5, 19, 27);
+}
+
+.save:hover, .inc:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 2px 2px rgb(34, 27, 27);
+    color: cornsilk;
+}
+
+h2 {
+    font-size: 50px;
+    position: fixed;
+    left: 37%;
+    top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(223, 223, 205);
+}
+
+.ppl {
+    font-size: 50px;
+    position: fixed;
+    left: 63%;
+    top: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(223, 223, 205);
+}
+
+h2:hover, .prev:hover, .ppl:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+.prev {
+    font-size: 30px;
+    position: fixed;
+    left: 37%;
+    top: 74%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(223, 223, 205);
+}
